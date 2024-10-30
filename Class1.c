@@ -47,23 +47,25 @@ int main(){
 	}
 
     int opcao;
-    printf("\n Bem vindo ao sistema C")
-    printf("\n Digite a opção desejada")
-    printf("\n 1-Cadastro")
-    printf("\n 2-Login")
-    printf("\n 3-Sair")
-    printf("\n Digite a opção desejada")
-    scanf("d%, opcao")
+    printf("\n Bem vindo ao sistema C");
+    printf("\n Digite a opção desejada");
+    printf("\n 1-Cadastro");
+    printf("\n 2-Login");
+    printf("\n 3-Sair");
+    printf("\n Digite a opção desejada");
+    scanf("d%, opcao");
 
-	switch(opacao){
+	switch(opcao){
 	    case 1:
-	        printf("Olá, Você pode se cadastrar..")
+	        printf("\n Olá, Você pode se cadastrar..");
 	        break;
 	    case 2:
+	        printf("\n Olá, você pode logar..");
 	        break;
 	    case 3:
+	       printf("saindo...");
 	        break;
 	    default:
-	       printf("Erro");
+	       printf("\nErro");
 	}
 }
